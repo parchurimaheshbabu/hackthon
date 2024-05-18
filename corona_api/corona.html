@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corona Api</title>
+    <link rel="stylesheet" href="corona.css" />
+  </head>
+  <body>
+    <div class="select">
+      <h1>COVID-19 Data Web Portal</h1>
+      <select name="city" id="city">
+        <option value="india">india</option>
+        <option value="russia">russia</option>
+        <option value="japan">japan</option>
+        <option value="usa">usa</option>
+      </select>
+      <button onclick="func()" id="btn">Submit</button>
+    </div>
+    <div class="description">
+      <h2>Description</h2>
+      <div class="desc">
+        <h4 id="cases">cases:</h4>
+        <h4 id="deaths">Deaths:</h4>
+        <h4 id="recovered">recovered:</h4>
+      </div>
+    </div>
+
+    <!-- <div class="reuirements">
+      <h2>Reuirements</h2>
+     
+    </div> -->
+
+    <!-- <div class="neighcoun">
+        <h2>Vacinated :</h2>
+
+    </div> -->
+    <script src="corona.js"></script>
+  </body>
+</html>

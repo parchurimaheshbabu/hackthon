@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 20px;
+    background-color: rgb(146, 213, 208);
+}
+#city{
+    width: 30%;
+    height:30px;
+margin: 20px;
+border: none;
+border-radius: 10px;
+
+
+}
+.select{
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+     justify-content: center;
+
+}
+.desc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#btn{
+    width: 20%;
+    padding: 10px;
+    background-color: chartreuse;
+border-radius: 10px;
+border: none;
+color: black;
+
+}
