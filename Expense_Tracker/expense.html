@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="expense.css" />
+  </head>
+  <body>
+    <h1 id="title">Expense Tracker</h1>
+    <div class="btns">
+     <a href="#adexp"> <button id="addexp">Add</button></a>
+
+      <a href="#all"><button id="view">view</button></a>
+     <a href="#all"> <button id="manage">manage</button></a>
+    </div>
+    <div class="intro">
+      <h3>What is Expense Tracker</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi nihil
+        dolores placeat voluptatem? Quos, omnis ab fugiat modi, quidem ipsam
+        earum nulla, ratione saepe fugit cum magni recusandae. Doloremque quod
+        nostrum quos. Dolores minus, reprehenderit vero quam vitae debitis nemo
+        ex dignissimos aliquid voluptas doloremque, laudantium, autem eius
+        mollitia ut totam? Placeat ea aut nisi aliquam. Nam commodi doloribus
+        sint officia vitae reprehenderit inventore eum eveniet est ab, magnam
+        odit, dolorem, enim officiis animi dolores nostrum ex iste dicta quod
+        non tempora nisi perferendis laborum! Soluta voluptatem ut eaque,
+        deserunt vero saepe ipsa odit, esse alias ipsam, architecto delectus
+        odio.
+      </p>
+    </div>
+    <div class="container">
+      <form id="adexp" method="post">
+        <h2>lets Add Expenses</h2>
+        <input type="number" placeholder="Enter Amount" id="amount" required />
+        <input type="text" placeholder="category" id="category" required />
+        <input type="date" id="date" required />
+        <input type="button" value="submit" id="add" onclick="addexpenses()"/>
+      </form>
+    </div>
+    <div class="view">
+        <h2 id="all">All Expenses</h2>
+        <div class="content">
+            <button onclick="viewall() " id="vall">view</button>
+            <table id="data">
+               <tr><th>id</th><th>Amount</th><th>Category</th><th>Date</th></tr>
+            </table>
+        </div>
+    </div>
+    <script src="expense.js"></script>
+  </body>
+</html>

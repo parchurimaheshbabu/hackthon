@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container form{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+form input{
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    height: 2rem;
+
+}
+form{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.container{
+ 
+    width: fit-content;
+    
+    margin: auto;
+}
+#add{
+    cursor: pointer;
+    background-color: rgb(70, 218, 70);
+    color: white;
+
+}
+#add:hover{
+    background-color: chartreuse;
+}
+#title{
+    text-align: center;
+}
+.intro{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid grey;
+
+}
+.intro p{
+color: gray;
+margin: 10px;
+
+}
+.btns{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.btns button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+
+}
+.btns button:hover{
+    background-color: rgb(178, 173, 173);
+}
+table {
+/* margin: auto; */
+}
+table td,table th{
+    width: 100px;
+}
+table ,tr,td ,th{
+     border: 1px solid grey;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+#vall{
+    width: 20%;
+    height: 10%;
+    background-color: chocolate;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+
+}
+.content {
+    margin: 20px;
+display: flex;
+align-items: center;
+justify-content: space-around;}
+
+#all{
+    margin: 10px;
+    text-align: center;
+}
